@@ -29,7 +29,7 @@ const Nav = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden px-4 pb-4">
+        <div className="md:hidden px-4 pb-4 ">
           <ul className="flex flex-col gap-3 mb-4">
             <li>Home</li>
             <li>Technology</li>
@@ -38,7 +38,7 @@ const Nav = () => {
             <li>Contact</li>
           </ul>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 ">
             <button className="btn btn-outline w-full">Sign In</button>
             <button className="btn btn-secondary rounded-4xl w-full">Sign Up</button>
           </div>
