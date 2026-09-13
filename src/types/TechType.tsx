@@ -6,6 +6,6 @@ interface ITechnology {
     icon: string;
     rating: number;
     difficulty: string;
-    badge: string | null;
+    badge: string;
 }
 export type { ITechnology };
